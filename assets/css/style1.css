@@ -386,8 +386,20 @@
     }
     @media screen and (max-width: 575.98px){
         .header-title{
-            font-size: 50px;
+            font-size: 30px;
         }
+        .header-details{
+            font-size: 19px;
+        }
+        .header-subtitle{
+            margin-top: 25px;
+        }
+         .header-section{
+            padding: 100px 0 0 0 ;
+         }
+         .title{
+            font-size: 29px;
+         }
     }
 /* 4. HIGHLIGHTS SECTION */ 
     .highlights-bg-section{
@@ -454,7 +466,7 @@
         background-repeat: no-repeat;
     }    
     .highlights-section{
-        padding: 100px 0;
+        padding: 25px 0;
         background-color: #EEEEEE;
         position: relative;
     }
@@ -538,7 +550,7 @@
     }
 /* 5. FEATURES SECTION */
     .features-section{
-        padding: 100px 0;
+        padding: 35px 0;
     }
     .features-container{
         display: flex;
@@ -653,7 +665,7 @@
         background-repeat: no-repeat;
     }
     .partners-section{
-        padding: 100px 0;
+        padding: 45px 0;
         background: linear-gradient(50deg,#EC41FF, #0984E3);
         position: relative;
     }
@@ -716,7 +728,7 @@
     }
 /* 7. BLOG SECTION */ 
     .blog-section{
-        padding: 100px 0;
+        padding: 30px 0;
     }
     .blog-title-section{
         text-align: center;
@@ -988,7 +1000,7 @@
     }
 /* 9. REVIEWS SECTION */
     .reviews-section{
-        padding: 100px 0;
+        padding: 40px 0;
 		background-color: #ffffff;
     }
     .reviews-title-section{
@@ -1061,7 +1073,7 @@
     }
 /* 10. CONTACT SECTION */
     .contact-us-section{
-        padding: 100px 0;
+        padding: 25px 0;
         background: linear-gradient(50deg,#EC41FF, #0984E3);
 		/* background: linear-gradient(30deg, rgba(236, 65, 255, 0.1), rgba(9, 132, 227, 0.1)); */
     }
@@ -1140,6 +1152,7 @@
         font-size: 18px;
         font-weight: 500;
 		transition-duration: 1s;
+        margin-top: 25px;
     }
     .contact-us-form-btn:hover{
         box-shadow: 0 3px 12px 0 rgba(0,0,0,.25);
@@ -1409,6 +1422,19 @@
     }
     #icon_right img{
         width: 100%;
+    }
+    .title2 {
+        font-size: 34px;
+    }
+    .title-details {
+        text-align: justify;
+    }
+    .show_desktop{
+        display: none;
+    }
+    .contact-us-content-container{
+        margin-top: 0px;
+        padding-top: 0px;
     }
 
 }
